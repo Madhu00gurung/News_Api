@@ -5,11 +5,10 @@ const Searchbar=()=>{
             <div className="search-box">
                 <div className="search-bar">
                     <img src="search-img.svg" className="search-img"/>
-                    <input type="search" className="search-button"/>
-                    <p id="search-text">search</p>
                     
+                    <input type="search" className="search-button"/>
+                    <button type="button" className="go-button">Go</button>
                 </div>
-                <button type="button" className="go-button">Go</button>
             </div>
         </>
     )
@@ -17,10 +16,3 @@ const Searchbar=()=>{
 export default Searchbar;
 
 
-// <div class="row main-input-btn">
-// <div className='input-btn'>
-//     <img src='search-logo.png' className='search-icon' />
-//     <input type="search" placeholder="Search" className='search-bar' />
-//     <button type="button" className='go-btn'>Go</button>
-// </div>
-// </div>

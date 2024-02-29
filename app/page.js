@@ -1,7 +1,7 @@
 "use client"
 // import "bootstrap/dist/css/bootstrap.min.css";
 import React,{useState} from "react";
-import "./globals.css";
+// import "./globals.css";
 
 import Header from "./header";
 import Searchbar from "./searchbar";
